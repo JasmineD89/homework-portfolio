@@ -5,6 +5,19 @@ h1 {
 
 }
 
+h2 {
+	text-align: center;
+	color: #33cccc;
+	font-family: Arial;
+	font-size: 30;
+}
+
+p {
+	text-align: center;
+	font-family: Arial;
+	font-size: 25;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -13,22 +26,23 @@ ul {
     background-color: #000;
 }
 
+
 li {
-	font-family: Arial;
-	font-size: 15;
     float: left;
+    font-family: Arial;
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: 1px solid #fff;
-
 }
 
-li:last-child {
-    border-right: none;
-    color: white;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #33cccc;
 }
 
 a {
@@ -36,5 +50,6 @@ a {
 }
 
 img {
-	text-align: center;
+
 }
+
