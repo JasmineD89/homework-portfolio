@@ -2,6 +2,7 @@ body{
     text-align: center;
     padding-top: 60px;
     margin: 0px;
+    background-color: #f0f5f5;
 }
 
 h1 {
@@ -17,14 +18,16 @@ h2 {
 	font-size: 30;
 }
 
+h3 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20;
+}
+
 p {
 	text-align: center;
 	font-family: Arial;
 	font-size: 25;
-}
-
-div {
-    background-color: #33cccc;
 }
 
 nav {
@@ -41,6 +44,7 @@ nav {
 
 }
 
+
 a {
     color: black;
     font-size: 20px;
@@ -49,6 +53,10 @@ a {
     padding-right: 15px;
     padding-left: 15px;
     text-decoration: none;
+}
+
+a:hover { 
+    background-color: #fff2e6;
 }
 
 img {
